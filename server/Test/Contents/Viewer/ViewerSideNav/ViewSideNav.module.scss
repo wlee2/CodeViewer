@@ -1,0 +1,49 @@
+.ViewSideNav{
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    background-color: #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    animation: ani 1s linear 0s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 6px rgba(0,0,0,0.20);
+    border-radius: 10px 10px 5px 5px;
+    max-height: 75%;
+    ul {
+        padding: 0 0 0 20px; 
+    }
+}
+
+@keyframes ani {
+    from {
+        transform: translateX(-60%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes aniMoblie {
+    from {
+        transform: translateY(-10%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.active {
+    color: red !important;
+}
+.Green {
+    color: forestgreen;
+}
+
+@media screen and (max-width: 600px) {
+    .ViewSideNav {
+        width: 100%;
+        position: relative;
+        animation: aniMoblie 1s linear 0s;
+        border-radius: 10px;
+    }
+}

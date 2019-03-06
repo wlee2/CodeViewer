@@ -1,0 +1,46 @@
+.ViewContents {
+    margin-left: 260px;
+    pre {
+        max-height: 77vh;
+        overflow: auto;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 6px rgba(0,0,0,0.20);
+        border-radius: 10px;
+    }
+    font-size: 13px;
+    
+    animation: ani 1s ease-out 0s;
+}
+
+@media screen and (max-width: 600px) {
+    .ViewContents {
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+        font-size: 11px;
+        animation: aniMobile 1s ease-out;
+        margin-bottom: 10%; 
+        pre {
+            max-height: 100%;
+        }
+    }
+}
+
+
+@keyframes ani {
+    from {
+        transform: translateX(+60%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes aniMobile {
+    from {
+        transform: translateY(+100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
