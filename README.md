@@ -1,14 +1,15 @@
 <h1>Description</h1>
-  Built a single page application project developed with React, Node, MongoDB, and PostgreSQL. It shows descriptions of my personal information, case-studied projects, blog, and Cloud Storage. The project data is stored in MongoDB, and it is controlled as the Schema model in Nodejs. The blog page also stores the data into the PostgreSQL service. The built server gets data from SQL and NoSQL. Then, it sends the lists of the name, image address and description for the project but also the title, author, and contents for the blog to React components. Then, the client saved project data into the redux store. For the study, the CSS styles built with multiple libraries are SCSS and styled-components. The animations are implemented with React-Transition and React-Revel libraries.
+  This application delivers the lists of files and folders from the Node's response that is the server, and it read directory from a specific location. When the client-side received click events, the React requests the file or folder data from the node. If the request is a file, the client gets the file's text data and show it to encoded data by the Google Prettify. Otherwise, Clicking the folder requests subfolder's data and appends the data into the original array.
+
 <br/>
 
-```js
-DEV with create-react-app // React.js - project
+```diff
++DEV with create-react-app // React.js - project
 ```
 
-<h2>You can clone this project but you can't execute it perfectly</h2>
-  
-For the protection of my MongoDB and PostgreSQL service, I didn't upload the .env and config files. Thus, there would be assured some errors when you execute the server side codes.
+<h2>You can clone, and execute this project!</h2>
+
+🤞🤞
 
 <h2>In the project directory, you can run</h2>
 
