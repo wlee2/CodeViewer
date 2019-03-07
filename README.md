@@ -25,6 +25,18 @@ for installation node-modules.<br/>
 you can look up the [package.json](https://github.com/wlee2/CodeViewer/blob/master/package.json) file!<br/>
 
 **Note: This server read and make lists data from [this path](https://github.com/wlee2/CodeViewer/tree/master/server/Test/Contents)!**
+I recommend adding folders that include code files.
+
+<h3>Able to read</h3>
+
+```diff
++java
++c
++html
++css
++js
++...
+```
 
 ### `yarn start` or `npm start`
 demo start.<br/>
