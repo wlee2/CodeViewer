@@ -11,19 +11,18 @@ In the project directory, you can run:
 **Note: I recommend using only one of yarn and npm for avoiding the unexpected collision!**
 
 ### `git clone <http clone url>` 
-clone this project<br>
+clone this project<br/>
 
 ### `yarn` or `npm`
-for installation node-modules.<br>
+for installation node-modules.<br/>
 
 ### `yarn server` or `npm server`
-<br>
 **Note: It can't be executed, because of missing essential files!**
 It will execute the nodemon command with babel-node to start the server. 
-you can look up the [package.json](https://github.com/wlee2/CodeViewer/blob/master/package.json) file!<br>
+you can look up the [package.json](https://github.com/wlee2/CodeViewer/blob/master/package.json) file!<br/>
 
 ### `yarn start` or `npm start`
-demo start.<br>
+demo start.<br/>
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
