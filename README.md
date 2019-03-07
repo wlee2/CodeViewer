@@ -4,9 +4,9 @@
 ### 'DEV with create-react-app // React.js - project'
 
 <h2>You can clone this project but you can't execute it perfectly<h2>
-<p>For the protection of my MongoDB and PostgreSQL service, I didn't upload the .env and config files. Thus, there would be assured some errors when you execute the server side codes.<p/>
+For the protection of my MongoDB and PostgreSQL service, I didn't upload the .env and config files. Thus, there would be assured some errors when you execute the server side codes.
 
-In the project directory, you can run:
+### `In the project directory, you can run:`
 
 **Note: I recommend using only one of yarn and npm for avoiding the unexpected collision!**
 
