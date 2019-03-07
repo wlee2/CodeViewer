@@ -22,9 +22,9 @@ clone this project<br/>
 for installation node-modules.<br/>
 
 ### `yarn server` or `npm server`
-**Note: It can't be executed, because of missing essential files!**
-It will execute the nodemon command with babel-node to start the server. 
 you can look up the [package.json](https://github.com/wlee2/CodeViewer/blob/master/package.json) file!<br/>
+
+**Note: This server read and make lists data from [this path](https://github.com/wlee2/CodeViewer/tree/master/server/Test/Contents)!**
 
 ### `yarn start` or `npm start`
 demo start.<br/>
