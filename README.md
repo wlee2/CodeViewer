@@ -24,7 +24,7 @@ for installation node-modules.<br/>
 ### `yarn server` or `npm server`
 you can look up the [package.json](https://github.com/wlee2/CodeViewer/blob/master/package.json) file!<br/>
 
-**Note: This server read and make lists data from [this path](https://github.com/wlee2/CodeViewer/tree/master/server/Test/Contents)!**
+**Note: This server-side code read and generate lists of data from [this path](https://github.com/wlee2/CodeViewer/tree/master/server/Test/Contents)!**
 I recommend adding folders that include code files.
 
 <h3>Able to read</h3>
